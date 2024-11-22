@@ -3,10 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Usama Yaseen Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .about,
+        .skills,
+        .projects,
+        .certifications,
+        .contact {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        .projects div,
+        .skills ul,
+        .certifications ul {
+            margin: 1rem 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Personal Website</h1>
-    <p>This is hosted on GitHub Pages!</p>
+    <header>
+        <h1>Usama Yaseen</h1>
+        <p>Data Scientist | ML Engineer | AI Engineer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am an experienced Data Scientist with over 1.5 years of expertise in machine learning, deep learning, and AI development.
+            I specialize in LLMs, AI-driven data processing, and cloud-based solutions like AWS and Google Cloud AI. Passionate about
+            advancing innovation in AI and delivering impactful data solutions.
+        </p>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>ChestXGPT</h3>
+            <p>
+                Developed a deep learning-based solution for chest X-ray analysis using CNNs, RNNs, and LSTMs. Managed end-to-end 
+                development and deployed the system for healthcare applications.
+            </p>
+        </div>
+        <div>
+            <h3>MediBot</h3>
+            <p>
+                Built a custom medical chatbot leveraging LangChain, RAG, and Llama LLM for efficient data retrieval and response 
+                generation. Integrated secure decentralized access with ChainLit.
+            </p>
+        </div>
+        <div>
+            <h3>Fraud Detection System</h3>
+            <p>
+                Implemented a fraud detection system using advanced anomaly detection algorithms, achieving high accuracy in identifying 
+                fraudulent banking transactions.
+            </p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Machine Learning: TensorFlow, PyTorch, Scikit-learn, Keras</li>
+            <li>Natural Language Processing: Hugging Face Transformers, BERT, GPT</li>
+            <li>Cloud Platforms: AWS, Google Cloud AI, Azure ML</li>
+            <li>Big Data Tools: Hadoop, Apache Spark, Apache Kafka</li>
+            <li>Data Visualization: Matplotlib, Seaborn, Tableau</li>
+        </ul>
+    </section>
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>ChatGPT Prompt Engineering for Developers</li>
+            <li>Building Multimodal Search and RAG</li>
+            <li>Intro to Deep Learning</li>
+            <li>Computer Vision</li>
+            <li>Deep Learning Specialization</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Usama Yaseen. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
