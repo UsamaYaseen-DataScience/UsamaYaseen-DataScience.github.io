@@ -3,40 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usama Yaseen Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Usama Yaseen - Detailed Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             color: #333;
+            background-color: #f4f4f9;
         }
         header {
-            background: #4CAF50;
+            background: #1e90ff;
             color: #fff;
-            padding: 1rem 0;
             text-align: center;
+            padding: 2rem 0;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.8rem;
         }
         header p {
             margin: 0.5rem 0 0;
+            font-size: 1.2rem;
         }
         nav {
-            background: #333;
+            background: #004a8f;
             color: #fff;
             display: flex;
             justify-content: center;
-            padding: 0.5rem;
+            padding: 0.75rem 0;
         }
         nav a {
             color: #fff;
-            margin: 0 1rem;
+            margin: 0 1.5rem;
             text-decoration: none;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
@@ -46,48 +47,40 @@
             max-width: 1200px;
             margin: 0 auto;
         }
-        .about,
-        .skills,
-        .projects,
-        .certifications,
-        .contact {
-            margin-bottom: 2rem;
-        }
         h2 {
-            border-bottom: 2px solid #4CAF50;
+            color: #004a8f;
+            border-bottom: 3px solid #1e90ff;
             padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             font-size: 2rem;
         }
-        .projects div,
-        .skills ul,
-        .certifications ul {
-            margin: 1rem 0;
+        .projects .project {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+        }
+        .projects .project h3 {
+            color: #1e90ff;
+            margin-bottom: 0.75rem;
+        }
+        .projects .project .tech-stack {
+            margin-top: 1rem;
+            font-style: italic;
+            color: #666;
+        }
+        .projects .project .impact {
+            margin-top: 1rem;
+            background: #e8f4ff;
+            padding: 1rem;
+            border-left: 4px solid #1e90ff;
         }
         footer {
-            background: #333;
+            background: #004a8f;
             color: #fff;
             text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-        .contact-form input,
-        .contact-form textarea,
-        .contact-form button {
-            width: 100%;
-            margin-bottom: 1rem;
-            padding: 0.75rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background: #4CAF50;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background: #45a049;
+            padding: 1.5rem 0;
         }
     </style>
 </head>
@@ -103,50 +96,155 @@
         <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
     </nav>
-    <section id="about" class="about">
+    <section id="about">
         <h2>About Me</h2>
         <p>
-            I am an experienced Data Scientist with over 1.5 years of expertise in machine learning, deep learning, and AI development.
-            I specialize in LLMs, AI-driven data processing, and cloud-based solutions like AWS and Google Cloud AI. Passionate about
-            advancing innovation in AI and delivering impactful data solutions.
+            I am a passionate and innovative Data Scientist with a robust background in machine learning, deep learning, and large language models (LLMs), currently advancing the boundaries of AI technology. With one and a half years of intensive experience at SESQUAD and AUGAI, I have consistently demonstrated my ability to transform complex data challenges into intelligent, actionable solutions.
+        </p>
+        <p>
+            My professional journey is characterized by a holistic approach to AI development, spanning the entire project lifecycle from conceptualization to deployment. As a Team Lead at AugAI, I have not only led multiple high-impact AI initiatives but also mentored junior data scientists, fostering a collaborative and innovative learning environment.
+        </p>
+        <p>
+            Technical expertise is at the core of my professional identity. I specialize in leveraging cutting-edge technologies like Python, NLP frameworks, cloud platforms (AWS, Google Cloud AI, Azure ML), and advanced AI tools such as LangChain and RAG models. My work consistently focuses on creating intelligent systems that can solve real-world problems across diverse domains including healthcare, finance, and research.
+        </p>
+        <p>
+            Key strengths include:
+        </p>
+        <ul>
+            <li>End-to-end AI solution development</li>
+            <li>Advanced machine learning model design and deployment</li>
+            <li>Expertise in natural language processing and large language models</li>
+            <li>Cloud-based AI system architecture</li>
+            <li>Cross-functional team collaboration and leadership</li>
+        </ul>
+        <p>
+            Beyond technical skills, I am driven by a profound passion for innovation. Each project is an opportunity to push the boundaries of what's possible with artificial intelligence, always with the goal of creating meaningful, impactful solutions that can transform industries and improve human experiences.
         </p>
     </section>
     <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div>
-            <h3>ChestXGPT</h3>
-            <p>
-                Developed a deep learning-based solution for chest X-ray analysis using CNNs, RNNs, and LSTMs. Managed end-to-end 
-                development and deployed the system for healthcare applications.
-            </p>
+        <h2>Comprehensive Project Portfolio</h2>
+        
+        <div class="project">
+            <h3>ChestXGPT - Medical Imaging AI</h3>
+            <p>A groundbreaking deep learning solution for chest X-ray analysis, revolutionizing medical diagnostic processes. 
+               Developed during my tenure at SESQUAD, this project showcases advanced application of deep learning techniques 
+               in medical imaging.</p>
+            <div class="tech-stack">
+                Technologies: Deep Learning, CNNs, RNNs, LSTMs, Medical Image Processing
+            </div>
+            <div class="impact">
+                <strong>Project Impact:</strong>
+                <ul>
+                    <li>Innovated chest X-ray analysis using state-of-the-art deep learning methodologies</li>
+                    <li>Managed entire project lifecycle from conceptualization to deployment</li>
+                    <li>Optimized data processing techniques for enhanced model performance</li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <h3>MediBot</h3>
-            <p>
-                Built a custom medical chatbot leveraging LangChain, RAG, and Llama LLM for efficient data retrieval and response 
-                generation. Integrated secure decentralized access with ChainLit.
-            </p>
+
+        <div class="project">
+            <h3>MediBot - Custom Medical Chatbot</h3>
+            <p>A specialized medical chatbot designed to provide secure, decentralized access to medical information 
+               using cutting-edge AI technologies.</p>
+            <div class="tech-stack">
+                Technologies: LangChain, RAG, Llama LLM, Fassi Vector Database, ChainLit
+            </div>
+            <div class="impact">
+                <strong>Project Highlights:</strong>
+                <ul>
+                    <li>Implemented advanced text embedding and vector database for efficient information retrieval</li>
+                    <li>Deployed on ChainLit platform ensuring secure medical data access</li>
+                    <li>Utilized Retrieval-Augmented Generation (RAG) for context-based responses</li>
+                </ul>
+            </div>
         </div>
-        <div>
+
+        <div class="project">
+            <h3>AI-Powered Research Assistant</h3>
+            <p>An automated tool designed to streamline research processes through advanced web scraping, 
+               data retrieval, and document generation capabilities.</p>
+            <div class="tech-stack">
+                Technologies: Python, FastAPI, BeautifulSoup, Scrapy, Selenium, GPT-3/4
+            </div>
+            <div class="impact">
+                <strong>Key Capabilities:</strong>
+                <ul>
+                    <li>Automated research with natural language query processing</li>
+                    <li>Web scraping using BeautifulSoup, Scrapy, and Selenium</li>
+                    <li>Generates downloadable PDF and Word reports</li>
+                    <li>Integrated GPT models for response summarization and formatting</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Financial Assistance AI</h3>
+            <p>An intelligent financial forecasting and advisory system that leverages machine learning 
+               to provide personalized financial insights and recommendations.</p>
+            <div class="tech-stack">
+                Technologies: Python, TensorFlow, LangChain, RAG, AWS SageMaker
+            </div>
+            <div class="impact">
+                <strong>Project Outcomes:</strong>
+                <ul>
+                    <li>Developed machine learning models for personal expense prediction</li>
+                    <li>Created an intelligent chatbot using Retrieval-Augmented Generation (RAG)</li>
+                    <li>Provided context-aware financial recommendations</li>
+                    <li>Demonstrated significant improvement in users' financial health</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
             <h3>Fraud Detection System</h3>
-            <p>
-                Implemented a fraud detection system using advanced anomaly detection algorithms, achieving high accuracy in identifying 
-                fraudulent banking transactions.
-            </p>
+            <p>A comprehensive banking fraud detection system utilizing advanced anomaly detection 
+               algorithms and explainable AI technologies.</p>
+            <div class="tech-stack">
+                Technologies: Python, AWS SageMaker, S3, CloudFormation, Anthropic Claude API
+            </div>
+            <div class="impact">
+                <strong>System Achievements:</strong>
+                <ul>
+                    <li>Implemented advanced anomaly detection with high fraud detection accuracy</li>
+                    <li>Full system deployment on AWS with CI/CD pipelines</li>
+                    <li>Developed an explainable AI bot using Claude for fraud reasoning</li>
+                    <li>Significantly reduced false positives compared to previous systems</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Data Analysis Agent with Automated Visualization</h3>
+            <p>An intelligent agent that automates data analysis, graph generation, and provides 
+               natural language insights from uploaded CSV files.</p>
+            <div class="tech-stack">
+                Technologies: Python, FastAPI, SQLite, Matplotlib, Pandas, GPT-3/4, LangChain
+            </div>
+            <div class="impact">
+                <strong>Agent Capabilities:</strong>
+                <ul>
+                    <li>Enables CSV file uploads and data storage in SQLite</li>
+                    <li>Automated graph generation using Matplotlib and Pandas</li>
+                    <li>Natural language descriptions generated via GPT models</li>
+                    <li>Simplifies complex data analysis through automated visualization</li>
+                </ul>
+            </div>
         </div>
     </section>
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
         <ul>
-            <li>Machine Learning: TensorFlow, PyTorch, Scikit-learn, Keras</li>
-            <li>Natural Language Processing: Hugging Face Transformers, BERT, GPT</li>
-            <li>Cloud Platforms: AWS, Google Cloud AI, Azure ML</li>
-            <li>Big Data Tools: Hadoop, Apache Spark, Apache Kafka</li>
-            <li>Data Visualization: Matplotlib, Seaborn, Tableau</li>
+            <li><strong>Machine Learning Frameworks:</strong> TensorFlow, PyTorch, Scikit-learn, Keras, XGBoost</li>
+            <li><strong>NLP & AI:</strong> Hugging Face Transformers, BERT, GPT, LangChain, RAG models</li>
+            <li><strong>Cloud & Big Data:</strong> AWS, Google Cloud AI, Azure ML, Hadoop, Apache Spark, Kafka</li>
+            <li><strong>Programming & Tools:</strong> Python, Git, Docker, MLflow</li>
+            <li><strong>Visualization:</strong> Matplotlib, Seaborn, Tableau, Plotly</li>
         </ul>
     </section>
-    <section id="certifications" class="certifications">
-        <h2>Certifications</h2>
+
+    <section id="certifications">
+        <h2>Professional Certifications</h2>
         <ul>
             <li>ChatGPT Prompt Engineering for Developers</li>
             <li>Building Multimodal Search and RAG</li>
@@ -155,15 +253,14 @@
             <li>Deep Learning Specialization</li>
         </ul>
     </section>
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:usamayaseen867@gmail.com">usamayaseen867@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/usamayaseen867" target="_blank">linkedin.com/in/usamayaseen867</a></p>
+        <p>Phone: <a href="tel:+923486622291">+92 348 6622291</a></p>
     </section>
+
     <footer>
         <p>&copy; 2024 Usama Yaseen. All Rights Reserved.</p>
     </footer>
