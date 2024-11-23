@@ -82,6 +82,29 @@
             text-align: center;
             padding: 1.5rem 0;
         }
+        .demo-links {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .demo-button, .github-link {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .demo-button {
+        background-color: #1e90ff;
+        color: white;
+    }
+    .github-link {
+        background-color: #004a8f;
+        color: white;
+    }
+    .demo-button:hover, .github-link:hover {
+        opacity: 0.8;
+    }
     </style>
 </head>
 <body>
@@ -231,7 +254,76 @@
             </div>
         </div>
     </section>
+    [Previous sections remain the same, add this new section before the footer]
 
+    <section id="demos">
+        <h2>Interactive AI Demos</h2>
+        <div class="project">
+            <h3>Chat with PDF</h3>
+            <p>An innovative AI-powered document interaction platform that allows users to engage directly with PDF documents through intelligent conversational interfaces.</p>
+            <div class="tech-stack">
+                Technologies: RAG, LangChain, GPT Models, Document Parsing, Vector Embeddings
+            </div>
+            <div class="impact">
+                <strong>Demo Capabilities:</strong>
+                <ul>
+                    <li>Upload and instantly analyze PDF documents</li>
+                    <li>Ask context-specific questions about document contents</li>
+                    <li>Retrieve precise information with AI-powered search</li>
+                    <li>Supports multiple document types and complex query understanding</li>
+                </ul>
+            </div>
+            <div class="demo-links">
+                <a href="#" class="demo-button">Launch Demo</a>
+                <a href="https://github.com/your-github/chat-with-pdf" target="_blank" class="github-link">View GitHub Repo</a>
+            </div>
+        </div>
+    
+        <div class="project">
+            <h3>Medical Consultation Chatbot</h3>
+            <p>An AI-driven medical consultation assistant providing preliminary health insights and information retrieval.</p>
+            <div class="tech-stack">
+                Technologies: MediBot, LangChain, RAG, Medical Knowledge Base
+            </div>
+            <div class="impact">
+                <strong>Demo Features:</strong>
+                <ul>
+                    <li>Secure medical information retrieval</li>
+                    <li>Context-aware health-related responses</li>
+                    <li>Powered by specialized medical knowledge base</li>
+                    <li>Provides preliminary health information and guidance</li>
+                </ul>
+            </div>
+            <div class="demo-links">
+                <a href="#" class="demo-button">Launch Demo</a>
+                <a href="https://github.com/your-github/medibot" target="_blank" class="github-link">View GitHub Repo</a>
+            </div>
+        </div>
+    
+        <div class="project">
+            <h3>Financial Analysis Chatbot</h3>
+            <p>An intelligent financial assistant for personalized financial insights and advisory services.</p>
+            <div class="tech-stack">
+                Technologies: TensorFlow, LangChain, RAG, Financial Data Processing
+            </div>
+            <div class="impact">
+                <strong>Demo Capabilities:</strong>
+                <ul>
+                    <li>Personal expense prediction</li>
+                    <li>Context-aware financial recommendations</li>
+                    <li>Investment and spending pattern analysis</li>
+                    <li>Interactive financial consultation</li>
+                </ul>
+            </div>
+            <div class="demo-links">
+                <a href="#" class="demo-button">Launch Demo</a>
+                <a href="https://github.com/your-github/financial-ai" target="_blank" class="github-link">View GitHub Repo</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    
     <section id="skills">
         <h2>Technical Skills</h2>
         <ul>
